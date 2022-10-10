@@ -1,0 +1,36 @@
+1. quiz crackers bad diye onno kono name
+2. title e o shei name ta dekhate hobe 
+3. favicon o dite hobe jate default ta na thake 
+4. Navbar thake ekta name thaakbe sathe kichu route thakbe 
+5. home route lagbe 
+6. design nijer iccha with bootstrap/ tailwind
+7. header thakte hobe ekta image ebong sathe kichu line lekha thakbe vitore 
+8. lorem ipsum lekha jabe na
+9. home er moddhe data diye dise data load kore home page e dekhate hobe
+10. prottekt topic er mocche chobi name ar button ebong koyta proshno ase oita dekhabe 
+11. kono topic e click korle oi jinish quiz er moddhe niye jabe 
+12. dynamic route hobe topic guli
+13. jetar quiz e dhukbo shetar name upore lekha thakbe 
+14. quiz nijer iccha moto dekhabo
+15. quiz er shothik answer e click korle bolbe shothik toast diye dekhate hobe 
+16. ar vul hoile bolbe wrong 
+17. eye icon e click korle shothik answer toast hishebe ashbe 
+
+
+Bonus: 
+1. Responsive banate hobe 
+2. 404 route thakte hobe meaningful output dekhabe
+3. blog name er route thakbe 
+    -what is the purpose of react router?
+    -how does contextapi work?
+    -useRef hook er kaj
+4. statistics route e chart diye dekhate hobe total quiz niye kichu
+5. readme file thakte hobe live link thakbe oikhane sathe project name tarpor 3 ta buller point e likhte hobe project ki ki kaj korsi
+6. 10 ta meaning commit korte hobe 
+7. Netlify te deploy korle bug fix ta kore nite hobe 
+
+
+
+Optional:
+1. shothik answer koyta hoise oitar count dekhano
+2. active route konta oita te underline
