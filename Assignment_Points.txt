@@ -1,10 +1,10 @@
-1. quiz crackers bad diye onno kono name
-2. title e o shei name ta dekhate hobe 
+1. quiz crackers bad diye onno kono name``````````````````
+2. title e o shei name ta dekhate hobe ```````````
 3. favicon o dite hobe jate default ta na thake 
-4. Navbar thake ekta name thaakbe sathe kichu route thakbe 
-5. home route lagbe 
+4. Navbar thake ekta name thaakbe sathe kichu route thakbe ``````
+5. home route lagbe ````````
 6. design nijer iccha with bootstrap/ tailwind
-7. header thakte hobe ekta image ebong sathe kichu line lekha thakbe vitore 
+7. header thakte hobe ekta image ebong sathe kichu line lekha thakbe vitore``````` 
 8. lorem ipsum lekha jabe na
 9. home er moddhe data diye dise data load kore home page e dekhate hobe
 10. prottekt topic er mocche chobi name ar button ebong koyta proshno ase oita dekhabe 

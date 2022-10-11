@@ -25,7 +25,7 @@ const TopicCard = ({ topic }) => {
                     </div>
                 </Card.Body>
             </Card>
-        </Col >
+        </Col>
     );
 };
 

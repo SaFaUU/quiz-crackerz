@@ -9,3 +9,7 @@
     font-size: small;
 
 }
+
+.quiz-button:hover {
+    background-color: #cc3d2d;
+}

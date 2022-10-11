@@ -1,0 +1,12 @@
+.caption-box {
+    bottom: -1.25rem;
+    font-size: small;
+    width: 70%;
+    margin: auto;
+    opacity: 0.4;
+    border-radius: 3px;
+}
+
+.caption-box:hover {
+    opacity: 1;
+}

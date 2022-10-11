@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 const Topics = () => {
     const fetched_data = useLoaderData();
     const { data } = fetched_data;
-    console.log(data);
+    // console.log(data);
     return (
         <div className='mb-5'>
             <h2 className='fw-bold mt-5 mb-3'>Please Select a Topic to Start the Quiz</h2>

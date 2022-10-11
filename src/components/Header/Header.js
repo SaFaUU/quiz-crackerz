@@ -14,13 +14,13 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
-                            <li className="nav-item">
+                            <li className="nav-item me-2">
                                 <Link className="nav-link active fw-bold" aria-current="page" to="/">Home</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item me-2">
                                 <Link className="nav-link fw-bold" to="/stats">Statistics</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item me-2">
                                 <Link className="nav-link fw-bold" to="/blog">Blog</Link>
                             </li>
                         </ul>
