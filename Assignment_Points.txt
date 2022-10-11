@@ -3,7 +3,7 @@
 3. favicon o dite hobe jate default ta na thake 
 4. Navbar thake ekta name thaakbe sathe kichu route thakbe ``````
 5. home route lagbe ````````
-6. design nijer iccha with bootstrap/ tailwind
+6. design nijer iccha with bootstrap/ tailwind````````
 7. header thakte hobe ekta image ebong sathe kichu line lekha thakbe vitore``````` 
 8. lorem ipsum lekha jabe na``````````
 9. home er moddhe data diye dise data load kore home page e dekhate hobe`````````
@@ -14,7 +14,7 @@
 14. quiz nijer iccha moto dekhabo```````
 15. quiz er shothik answer e click korle bolbe shothik toast diye dekhate hobe ``````
 16. ar vul hoile bolbe wrong ``````````
-17. eye icon e click korle shothik answer toast hishebe ashbe 
+17. eye icon e click korle shothik answer toast hishebe ashbe ```````
 
 
 Bonus: 

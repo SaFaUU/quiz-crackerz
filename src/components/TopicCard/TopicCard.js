@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import './TopicCard.css'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const TopicCard = ({ topic }) => {
     return (
@@ -20,7 +22,9 @@ const TopicCard = ({ topic }) => {
                             <span className='fw-bold'>Total Quiz:</span>   <small>{topic.total}</small>
                         </Card.Text>
                         <Link to={`quiz/${topic.id}`}>
-                            <button className='quiz-button ms-4'>Start Quiz</button>
+                            <button className='quiz-button ms-4 align-items-center'>Start Quiz
+                                <FontAwesomeIcon className='ms-3' icon={faArrowRight}></FontAwesomeIcon></button>
+
                         </Link>
                     </div>
                 </Card.Body>
