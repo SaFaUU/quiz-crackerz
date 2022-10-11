@@ -30,10 +30,11 @@ const QuizQuestion = ({ question, totalCorrect, setTotalCorrect }) => {
             <ToggleButtonGroup name={question.id}>
                 {
                     question.options.map((option, idx) => (
-                        <div className="row px-2">
+                        <div
+                            key={idx}
+                            className="row px-2">
                             <div className="col me-2">
                                 <ToggleButton
-                                    key={idx}
                                     id={`${idx}-${question.id}`}
                                     type="radio"
                                     name="radio"
@@ -41,7 +42,6 @@ const QuizQuestion = ({ question, totalCorrect, setTotalCorrect }) => {
                                     checked={radioValue === option}
                                     variant={radioValue === option ? correctAnswer : 'light'}
                                     onChange={(e) => setRadioValue(e.currentTarget.value)}
-                                // className='text-black bg-light me-2'
                                 >
                                     {option}
                                     {/* {console.log(radio.value)} */}
