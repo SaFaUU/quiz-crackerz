@@ -1,0 +1,9 @@
+.logo_size {
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .logo_size {
+        width: 50%;
+    }
+}
