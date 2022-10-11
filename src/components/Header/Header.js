@@ -7,7 +7,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg bg-light">
                 <div className="container-fluid">
                     <Link className="navbar-brand d-flex w-50" href="#">
-                        <img className='logo_size' src="https://codejunkie.co/wp-content/uploads/2020/09/horizontal-w.png" alt="" srcset=""></img>
+                        <img className='logo_size' src="https://codejunkie.co/wp-content/uploads/2020/09/horizontal-w.png" alt="" srcSet="https://codejunkie.co/wp-content/uploads/2020/09/horizontal-w.png"></img>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={false} aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

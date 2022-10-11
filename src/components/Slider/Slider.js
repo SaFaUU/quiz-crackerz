@@ -7,7 +7,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://www.sevenstarwebsolutions.com/wp-content/uploads/2019/06/react-js-banner.png"
+                    srcSet="https://www.sevenstarwebsolutions.com/wp-content/uploads/2019/06/react-js-banner.png"
                     alt="First slide"
                 />
 
@@ -15,7 +15,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://www.paragyte.com/img/JavaScript_Banner.png"
+                    srcSet="https://www.paragyte.com/img/JavaScript_Banner.png"
                     alt="Second slide"
                 />
 
@@ -23,7 +23,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://www.sevenstarwebsolutions.com/wp-content/uploads/2019/06/html-css-banner.png"
+                    srcSet="https://www.sevenstarwebsolutions.com/wp-content/uploads/2019/06/html-css-banner.png"
                     alt="Third slide"
                 />
 

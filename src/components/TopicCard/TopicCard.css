@@ -1,0 +1,11 @@
+.quiz-button {
+    font-weight: bold;
+
+    background-color: #fe6655;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 30px;
+    font-size: small;
+
+}
