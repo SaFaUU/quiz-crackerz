@@ -2,14 +2,24 @@ import React, { useEffect, useState } from 'react';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import { ButtonToolbar, ToggleButtonGroup } from 'react-bootstrap';
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const QuizQuestion = ({ question, totalCorrect, setTotalCorrect }) => {
     const [radioValue, setRadioValue] = useState('1');
 
+    const correct = () => toast.success('Corrent Answer!')
+    const wrong = () => toast.error('Wrong Answer!')
 
     let correctAnswer;
-
+    const checkAnswer = (chosen_option) => {
+        if (question.correctAnswer === chosen_option) {
+            correct();
+        }
+        else {
+            wrong();
+        }
+    }
     useEffect(() => {
         if (radioValue === question.correctAnswer) {
             setTotalCorrect(totalCorrect + 1);
@@ -42,10 +52,12 @@ const QuizQuestion = ({ question, totalCorrect, setTotalCorrect }) => {
                                     checked={radioValue === option}
                                     variant={radioValue === option ? correctAnswer : 'light'}
                                     onChange={(e) => setRadioValue(e.currentTarget.value)}
+                                    onClick={() => checkAnswer(option)}
                                 >
                                     {option}
                                     {/* {console.log(radio.value)} */}
                                 </ToggleButton>
+                                <Toaster />
                             </div>
                         </div>
                     ))

@@ -14,7 +14,8 @@ export default function Stats() {
                     <Bar dataKey="total" fill="#8884d8" />
                 </BarChart>
             </div>
-            <h1 className='mt-5'>Stats Chart for All the Quiz</h1>
+            <h1 className='mt-5 fw-bold'>Statistics Chart</h1>
+            <p><small>Number of Quizes available Today</small></p>
         </div>
     );
 }
