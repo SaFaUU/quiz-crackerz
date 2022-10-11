@@ -12,21 +12,21 @@
 12. dynamic route hobe topic guli`````````
 13. jetar quiz e dhukbo shetar name upore lekha thakbe ```````
 14. quiz nijer iccha moto dekhabo```````
-15. quiz er shothik answer e click korle bolbe shothik toast diye dekhate hobe 
-16. ar vul hoile bolbe wrong 
+15. quiz er shothik answer e click korle bolbe shothik toast diye dekhate hobe ``````
+16. ar vul hoile bolbe wrong ``````````
 17. eye icon e click korle shothik answer toast hishebe ashbe 
 
 
 Bonus: 
-1. Responsive banate hobe 
-2. 404 route thakte hobe meaningful output dekhabe
-3. blog name er route thakbe 
-    -what is the purpose of react router?
-    -how does contextapi work?
-    -useRef hook er kaj
-4. statistics route e chart diye dekhate hobe total quiz niye kichu
+1. Responsive banate hobe `````````
+2. 404 route thakte hobe meaningful output dekhabe````````````
+3. blog name er route thakbe `````````
+    -what is the purpose of react router?``````````````
+    -how does contextapi work?``````````````
+    -useRef hook er kaj`````````````````
+4. statistics route e chart diye dekhate hobe total quiz niye kichu````````
 5. readme file thakte hobe live link thakbe oikhane sathe project name tarpor 3 ta buller point e likhte hobe project ki ki kaj korsi
-6. 10 ta meaning commit korte hobe 
+6. 10 ta meaning commit korte hobe ```
 7. Netlify te deploy korle bug fix ta kore nite hobe 
 
 
